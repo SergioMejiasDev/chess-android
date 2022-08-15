@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ad554227ab61c43b9bdcce76c71a7b, type: 3}
+  m_Name: InvalidRegion
+  m_EditorClassIdentifier: 
+  english: Connection error. The selected server is not available at this time. Choose
+    a different one from the options menu.
+  spanish: "Error de conexi\xF3n. El servidor seleccionado no est\xE1 disponible
+    en este momento. Elige otro diferente desde el men\xFA de opciones."
+  catalan: "Error de connexi\xF3. El servidor seleccionat no est\xE0 disponible en
+    aquest moment. Tria un altre diferent des del men\xFA d'opcions."
+  italian: "Errore di connessione. Il server selezionato non \xE8 disponibile in
+    questo momento. Scegline uno diverso dal menu delle opzioni."

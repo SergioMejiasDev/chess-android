@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ad554227ab61c43b9bdcce76c71a7b, type: 3}
+  m_Name: FreeSoftware
+  m_EditorClassIdentifier: 
+  english: The source code of this game is distributed under the GNU GPLv3 license.
+    Click here to access it.
+  spanish: "El c\xF3digo fuente de este juego se distribuye bajo la licencia GNU
+    GPLv3. Pulsa aqu\xED para acceder a \xE9l."
+  catalan: "El codi font d'aquest joc es distribueix sota la llic\xE8ncia GNU GPLv3.
+    Pitja aqu\xED per accedir-hi."
+  italian: "Il codice sorgente di questo gioco \xE8 distribuito sotto licenza GNU
+    GPLv3. Fare clic qui per accedere."

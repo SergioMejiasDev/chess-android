@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ad554227ab61c43b9bdcce76c71a7b, type: 3}
+  m_Name: ServerFull
+  m_EditorClassIdentifier: 
+  english: At this time the server has reached the maximum number of possible connections.
+    Try again later.
+  spanish: "En este momento el servidor ha alcanzado el m\xE1ximo de conexiones posibles.
+    Int\xE9ntalo de nuevo m\xE1s tarde."
+  catalan: "En aquest moment el servidor ha arribat al m\xE0xim de connexions possibles.
+    Intenta-ho de nou m\xE9s tard."
+  italian: "A questo punto il server ha raggiunto il numero massimo di connessioni
+    possibili. Riprovare pi\xF9 tardi."

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ad554227ab61c43b9bdcce76c71a7b, type: 3}
+  m_Name: PlayerLeftRoomMessage
+  m_EditorClassIdentifier: 
+  english: The game was closed because the connection with the other player was lost.
+    If this was an accident, remember that you can continue the game from the backup
+    that is saved after each move.
+  spanish: "Se ha cerrado la partida porque se ha perdido la conexi\xF3n con el otro
+    jugador. Si esto ha sido un accidente, recuerda que puedes continuar la partida
+    a partir de la copia de seguridad que se guarda tras cada movimiento."
+  catalan: "S'ha tancat la partida perqu\xE8 s'ha perdut la connexi\xF3 amb l'altre
+    jugador. Si aix\xF2 ha estat un accident, recorda que pots continuar la partida
+    a partir de la c\xF2pia de seguretat que es guarda despr\xE9s de cada moviment."
+  italian: "Il gioco \xE8 stato chiuso perch\xE9 la connessione con l'altro giocatore
+    \xE8 andata persa. Se \xE8 stato un incidente, ricorda che puoi continuare il
+    gioco dal backup salvato dopo ogni mossa."
