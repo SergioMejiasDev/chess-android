@@ -14,7 +14,7 @@ I hope you enjoy it!
 
 ## Project build
 
-The project is created using Unity 2021.3.5f1.
+The project is created using Unity 2021.3.15f1.
 
 Just clone the repository or copy the files contained in it and open the project with Unity. The necessary resources will be installed automatically.
 

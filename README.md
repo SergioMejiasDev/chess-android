@@ -14,7 +14,7 @@ A través de esta aplicación podrás jugar partidas contra la máquina o contra
 
 ## Compilación del proyecto
 
-El proyecto se ha creado utilizando la versión 2021.3.5f1 de Unity.
+El proyecto se ha creado utilizando la versión 2021.3.15f1 de Unity.
 
 Simplemente clona el repositorio o copia los archivos contenidos en él y abre el proyecto con Unity. Los recursos necesarios se instalarán automáticamente.
 
