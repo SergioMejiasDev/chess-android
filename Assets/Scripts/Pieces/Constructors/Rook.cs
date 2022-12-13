@@ -335,7 +335,10 @@ public class Rook
             {
                 tempList.Add(new Vector2(i, position.y));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y))
+                {
+                    break;
+                }
             }
         }
 
@@ -357,7 +360,10 @@ public class Rook
             {
                 tempList.Add(new Vector2(i, position.y));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y))
+                {
+                    break;
+                }
             }
         }
 
@@ -379,7 +385,10 @@ public class Rook
             {
                 tempList.Add(new Vector2(position.x, i));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(position.x, i))
+                {
+                    break;
+                }
             }
         }
 
@@ -401,7 +410,10 @@ public class Rook
             {
                 tempList.Add(new Vector2(position.x, i));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(position.x, i))
+                {
+                    break;
+                }
             }
         }
 
@@ -434,7 +446,10 @@ public class Rook
             {
                 tempList.Add(new Vector2(i, position.y));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y))
+                {
+                    break;
+                }
             }
         }
 
@@ -456,7 +471,10 @@ public class Rook
             {
                 tempList.Add(new Vector2(i, position.y));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y))
+                {
+                    break;
+                }
             }
         }
 
@@ -478,7 +496,10 @@ public class Rook
             {
                 tempList.Add(new Vector2(position.x, i));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(position.x, i))
+                {
+                    break;
+                }
             }
         }
 
@@ -500,7 +521,10 @@ public class Rook
             {
                 tempList.Add(new Vector2(position.x, i));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(position.x, i))
+                {
+                    break;
+                }
             }
         }
 

@@ -515,7 +515,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y))
+                {
+                    break;
+                }
             }
         }
 
@@ -537,7 +540,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y))
+                {
+                    break;
+                }
             }
         }
 
@@ -559,7 +565,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(position.x, i));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(position.x, i))
+                {
+                    break;
+                }
             }
         }
 
@@ -581,7 +590,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(position.x, i));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(position.x, i))
+                {
+                    break;
+                }
             }
         }
 
@@ -607,7 +619,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y + loops));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y + loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -633,7 +648,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y - loops));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y - loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -659,7 +677,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y + loops));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y + loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -685,7 +706,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y - loops));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y - loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -718,7 +742,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y))
+                {
+                    break;
+                }
             }
         }
 
@@ -740,7 +767,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y))
+                {
+                    break;
+                }
             }
         }
 
@@ -762,7 +792,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(position.x, i));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(position.x, i))
+                {
+                    break;
+                }
             }
         }
 
@@ -784,7 +817,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(position.x, i));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(position.x, i))
+                {
+                    break;
+                }
             }
         }
 
@@ -810,7 +846,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y + loops));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y + loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -836,7 +875,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y - loops));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y - loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -862,7 +904,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y + loops));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y + loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -888,7 +933,10 @@ public class Queen
             {
                 tempList.Add(new Vector2(i, position.y - loops));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y - loops))
+                {
+                    break;
+                }
             }
         }
 

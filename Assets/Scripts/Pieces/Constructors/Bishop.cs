@@ -431,7 +431,10 @@ public class Bishop
             {
                 tempList.Add(new Vector2(i, position.y + loops));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y + loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -465,7 +468,10 @@ public class Bishop
             {
                 tempList.Add(new Vector2(i, position.y - loops));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y - loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -499,7 +505,10 @@ public class Bishop
             {
                 tempList.Add(new Vector2(i, position.y + loops));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y + loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -533,7 +542,10 @@ public class Bishop
             {
                 tempList.Add(new Vector2(i, position.y - loops));
 
-                break;
+                if (Chess.BlackKingPosition != new Vector2(i, position.y - loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -578,7 +590,10 @@ public class Bishop
             {
                 tempList.Add(new Vector2(i, position.y + loops));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y + loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -612,7 +627,10 @@ public class Bishop
             {
                 tempList.Add(new Vector2(i, position.y - loops));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y - loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -646,7 +664,10 @@ public class Bishop
             {
                 tempList.Add(new Vector2(i, position.y + loops));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y + loops))
+                {
+                    break;
+                }
             }
         }
 
@@ -680,7 +701,10 @@ public class Bishop
             {
                 tempList.Add(new Vector2(i, position.y - loops));
 
-                break;
+                if (Chess.WhiteKingPosition != new Vector2(i, position.y - loops))
+                {
+                    break;
+                }
             }
         }
 
